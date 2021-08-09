@@ -1,7 +1,7 @@
 provider "aws" {
-    access_key =""
+    access_key ="AKIAUIJYE7OAL7K2W6FJ"
     secret_key =""
-    region     =""
+    region     ="us-east-2"
 }
 resourse "aws_instance" "MyFirst" {
     ami           ="ami-0bff25b43a4479334"
