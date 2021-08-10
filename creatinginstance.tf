@@ -3,7 +3,7 @@ provider "aws" {
     secret_key =""
     region     ="us-east-2"
 }
-resourse "aws_instance" "MyFirst" {
-    ami           ="ami-0bff25b43a4479334"
+resource "aws_instance" "MyFirst" {
+    ami           ="ami-00399ec92321828f5"
     instance_type ="t2.micro"
 }
